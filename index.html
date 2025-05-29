@@ -32,30 +32,135 @@
     </header>
 
     <section class="hero">
+      <!-- パーティクル背景 -->
+      <div class="particles-container">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+      </div>
+      
+      <!-- 動的グリッド背景 -->
+      <div class="grid-background"></div>
+      
       <div class="hero-content">
         <div class="hero-text">
-          <h1 class="fade-in">X-DBOT<span class="gold-dot">.</span></h1>
-          <p class="subtitle fade-in delay-1">
-            Xアカウントの自動化と管理を、もっとスマートに。
+          <div class="hero-badge fade-in">
+            <span class="badge-text">🤖 X アカウント自動化ツール</span>
+          </div>
+          
+          <h1 class="hero-title fade-in delay-1">
+            <span class="title-line">X-DBOT</span>
+            <span class="title-line">へようこそ<span class="gold-dot">.</span></span>
+          </h1>
+          
+          <p class="hero-subtitle fade-in delay-2">
+            <span class="subtitle-highlight">Xアカウントの自動化と管理</span>を、もっとスマートに。
+            <br>効率的なコンテンツ投稿でアカウント運用を最適化します。
           </p>
-          <div class="hero-cta fade-in delay-2">
-            <a href="./login.html" class="btn-primary">始めましょう</a>
-            <a href="#features" class="btn-secondary">機能を見る</a>
+          
+          <div class="hero-features fade-in delay-3">
+            <div class="feature-item">
+              <div class="feature-icon">📅</div>
+              <div class="feature-text">
+                <div class="feature-title">スケジュールポスト</div>
+                <div class="feature-desc">指定時間での自動投稿</div>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">🤖</div>
+              <div class="feature-text">
+                <div class="feature-title">AI投稿生成</div>
+                <div class="feature-desc">AIによる自動コンテンツ作成</div>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">💬</div>
+              <div class="feature-text">
+                <div class="feature-title">自動返信</div>
+                <div class="feature-desc">リプライへのAI自動応答 <span class="coming-soon-badge">※実装中</span></div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="hero-cta fade-in delay-4">
+            <a href="./login.html" class="btn-primary-new">
+              <span class="btn-text">ログイン</span>
+              <div class="btn-shine"></div>
+            </a>
+            <a href="#features" class="btn-secondary-new">
+              <span class="btn-icon">▼</span>
+              <span class="btn-text">機能詳細</span>
+            </a>
+          </div>
+          
+          <div class="hero-note fade-in delay-5">
+            <p class="note-text">Xアカウント運用の効率化を支援するツールです</p>
           </div>
         </div>
-        <div class="hero-image fade-in delay-3">
-          <img
-            src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
-            alt="AIロボットイメージ"
-          />
-          <div class="glow-effect"></div>
+        
+        <div class="hero-visual fade-in delay-3">
+          <!-- 3Dカード効果 -->
+          <div class="visual-card">
+            <div class="card-glow"></div>
+            <div class="card-content">
+              <div class="dashboard-preview">
+                <div class="dashboard-header">
+                  <div class="header-dot active"></div>
+                  <div class="header-dot"></div>
+                  <div class="header-dot"></div>
+                  <span class="dashboard-title">X-DBOT 管理画面</span>
+                </div>
+                <div class="dashboard-body">
+                  <div class="metric-card">
+                    <div class="metric-label">スケジュール投稿</div>
+                    <div class="metric-value">設定済み</div>
+                    <div class="metric-trend">✓ 準備完了</div>
+                  </div>
+                  <div class="metric-card">
+                    <div class="metric-label">AI投稿生成</div>
+                    <div class="metric-value">利用可能</div>
+                    <div class="metric-trend">✓ 稼働中</div>
+                  </div>
+                  <div class="activity-feed">
+                    <div class="activity-item">
+                      <div class="activity-icon">📝</div>
+                      <div class="activity-text">投稿コンテンツを準備中...</div>
+                    </div>
+                    <div class="activity-item">
+                      <div class="activity-icon">⏰</div>
+                      <div class="activity-text">スケジュール設定完了</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- フローティング要素 -->
+          <div class="floating-elements">
+            <div class="floating-element element-1">
+              <div class="element-icon">📅</div>
+            </div>
+            <div class="floating-element element-2">
+              <div class="element-icon">🤖</div>
+            </div>
+            <div class="floating-element element-3">
+              <div class="element-icon">💬</div>
+            </div>
+          </div>
         </div>
       </div>
+      
       <div class="hero-scroll">
         <div class="scroll-icon">
           <div class="scroll-dot"></div>
         </div>
-        <span>スクロール</span>
+        <span>さらに詳しく</span>
       </div>
     </section>
 
