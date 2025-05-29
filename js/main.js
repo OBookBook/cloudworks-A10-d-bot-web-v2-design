@@ -159,3 +159,20 @@ function addMobileNavStyles() {
 
 // Add mobile navigation styles
 addMobileNavStyles();
+
+// Feature cards hover effects
+document.addEventListener("DOMContentLoaded", function () {
+  const featureCards = document.querySelectorAll(".feature-card");
+
+  featureCards.forEach((card) => {
+    card.addEventListener("mouseenter", function () {
+      // Add subtle glow effect on hover
+      this.style.boxShadow = "0 25px 70px rgba(212, 175, 55, 0.15)";
+    });
+
+    card.addEventListener("mouseleave", function () {
+      // Reset to default shadow
+      this.style.boxShadow = "";
+    });
+  });
+});
