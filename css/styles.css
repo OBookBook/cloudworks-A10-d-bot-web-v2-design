@@ -345,33 +345,6 @@ nav a:hover::after {
   letter-spacing: 1px;
 }
 
-/* ヒーロータイトル */
-.hero-title {
-  font-size: 4.5rem;
-  font-weight: 800;
-  line-height: 1.1;
-  margin-bottom: var(--spacing-lg);
-  letter-spacing: -0.02em;
-}
-
-.title-line {
-  display: block;
-  color: var(--text-white);
-}
-
-.title-line.highlight {
-  background: linear-gradient(
-    135deg,
-    var(--gold-primary) 0%,
-    var(--gold-light) 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  font-size: 4rem;
-  font-weight: 900;
-}
-
 /* ヒーローサブタイトル */
 .hero-subtitle {
   font-size: 1.2rem;
@@ -1529,14 +1502,6 @@ footer {
     margin-bottom: var(--spacing-xl);
   }
 
-  .hero-title {
-    font-size: 3.5rem;
-  }
-
-  .title-line.highlight {
-    font-size: 4rem;
-  }
-
   .hero-stats {
     justify-content: center;
   }
@@ -1567,14 +1532,6 @@ footer {
 
   nav ul {
     gap: var(--spacing-md);
-  }
-
-  .hero-title {
-    font-size: 2.8rem;
-  }
-
-  .title-line.highlight {
-    font-size: 3.2rem;
   }
 
   .hero-subtitle {
@@ -1693,14 +1650,6 @@ footer {
 
   nav a {
     font-size: 0.9rem;
-  }
-
-  .hero-title {
-    font-size: 2.2rem;
-  }
-
-  .title-line.highlight {
-    font-size: 2.8rem;
   }
 
   .hero-subtitle {
