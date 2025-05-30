@@ -420,9 +420,9 @@ nav a:hover::after {
 
 .post-header {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: var(--spacing-xs);
+  flex-direction: row;
+  align-items: center;
+  gap: var(--spacing-sm);
   margin-bottom: var(--spacing-md);
 }
 
