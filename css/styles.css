@@ -904,6 +904,7 @@ nav a:hover::after {
   overflow: hidden;
   width: 100%;
   justify-content: center;
+  text-decoration: none;
 }
 
 .learn-more-btn::before {
@@ -927,6 +928,15 @@ nav a:hover::after {
   border-color: var(--gold-primary);
   transform: translateY(-2px);
   box-shadow: 0 10px 30px rgba(212, 175, 55, 0.3);
+}
+
+.btn-icon {
+  font-size: 1.2rem;
+  transition: transform var(--transition-fast);
+}
+
+.learn-more-btn:hover .btn-icon {
+  transform: scale(1.2);
 }
 
 .btn-arrow {
