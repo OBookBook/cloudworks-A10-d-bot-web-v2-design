@@ -1523,6 +1523,10 @@ footer {
   .company-info {
     margin: var(--spacing-xl) 0;
   }
+
+  .post-preview {
+    text-align-last: left;
+  }
 }
 
 @media screen and (max-width: 768px) {
