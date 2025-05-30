@@ -65,15 +65,13 @@
 
 /* Button hover effect */
 .btn-primary,
-.btn-secondary,
-.nav-login {
+.btn-secondary {
   position: relative;
   overflow: hidden;
 }
 
 .btn-primary::before,
-.btn-secondary::before,
-.nav-login::before {
+.btn-secondary::before {
   content: "";
   position: absolute;
   top: 0;
@@ -90,8 +88,7 @@
 }
 
 .btn-primary:hover::before,
-.btn-secondary:hover::before,
-.nav-login:hover::before {
+.btn-secondary:hover::before {
   left: 100%;
 }
 
