@@ -1615,7 +1615,6 @@ footer {
   }
 
   .footer-links {
-    flex-direction: column;
     gap: var(--spacing-xl);
   }
 
