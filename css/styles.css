@@ -516,41 +516,6 @@ nav a:hover::after {
   color: var(--text-light);
 }
 
-/* 機能説明 */
-.feature-explanation {
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-md);
-}
-
-.feature-highlight {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  gap: var(--spacing-xs);
-  padding: var(--spacing-md);
-  background: rgba(21, 31, 53, 0.5);
-  border-radius: var(--border-radius-md);
-  border-left: 3px solid var(--gold-primary);
-}
-
-.highlight-icon {
-  font-size: 1.2rem;
-  flex-shrink: 0;
-}
-
-.highlight-text strong {
-  color: var(--text-white);
-  font-size: 0.9rem;
-  display: block;
-  margin-bottom: 2px;
-}
-
-.highlight-text span {
-  color: var(--text-muted);
-  font-size: 0.8rem;
-}
-
 /* Features Section - Card Layout */
 .features {
   padding: var(--spacing-huge) 0;
