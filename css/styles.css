@@ -1492,6 +1492,10 @@ footer {
 
 /* Responsive Design */
 @media screen and (max-width: 1024px) {
+  .hero-badge {
+    margin-top: var(--spacing-xxl);
+  }
+
   .hero-content {
     flex-direction: column;
     text-align: center;
@@ -1659,9 +1663,9 @@ footer {
     font-size: 1.1rem;
   }
 
-  .hero-badge {
+  /* .hero-badge {
     padding: var(--spacing-xs) var(--spacing-md);
-  }
+  } */
 
   .badge-text {
     font-size: 0.8rem;
